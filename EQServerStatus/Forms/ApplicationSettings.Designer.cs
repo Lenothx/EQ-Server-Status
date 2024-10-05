@@ -56,7 +56,7 @@
             this.saveSettingsButton.TabIndex = 2;
             this.saveSettingsButton.Text = "Save";
             this.saveSettingsButton.UseVisualStyleBackColor = true;
-            this.saveSettingsButton.Click += new System.EventHandler(this.saveSettingsButton_Click);
+            this.saveSettingsButton.Click += new System.EventHandler(this.SaveSettingsButton_Click);
             // 
             // cancelSettingsButton
             // 
@@ -66,7 +66,7 @@
             this.cancelSettingsButton.TabIndex = 3;
             this.cancelSettingsButton.Text = "Cancel";
             this.cancelSettingsButton.UseVisualStyleBackColor = true;
-            this.cancelSettingsButton.Click += new System.EventHandler(this.cancelSettingsButton_Click);
+            this.cancelSettingsButton.Click += new System.EventHandler(this.CancelSettingsButton_Click);
             // 
             // label2
             // 

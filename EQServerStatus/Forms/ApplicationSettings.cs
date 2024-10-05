@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace EQServerStatus.Forms
@@ -22,12 +15,12 @@ namespace EQServerStatus.Forms
             minimizeToTrayCheckbox.Checked = Properties.Settings.Default.minimizeToTray;
         }
 
-        private void cancelSettingsButton_Click(object sender, EventArgs e)
+        private void CancelSettingsButton_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
-        private void saveSettingsButton_Click(object sender, EventArgs e)
+        private void SaveSettingsButton_Click(object sender, EventArgs e)
         {
             if (int.Parse(setRefreshTimerMaskedTextBox.Text) > 29  && int.Parse(setRefreshTimerMaskedTextBox.Text) < 10000)
             {

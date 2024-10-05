@@ -44,7 +44,7 @@
             this.aboutBoxOkButton.TabIndex = 0;
             this.aboutBoxOkButton.Text = "Okay";
             this.aboutBoxOkButton.UseVisualStyleBackColor = true;
-            this.aboutBoxOkButton.Click += new System.EventHandler(this.aboutBoxOkButton_Click);
+            this.aboutBoxOkButton.Click += new System.EventHandler(this.AboutBoxOkButton_Click);
             // 
             // label1
             // 
@@ -73,7 +73,7 @@
             this.linkLabel1.TabIndex = 3;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "EQResource.com";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.launchEQResourceURL);
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.LaunchEQResourceURL);
             // 
             // label3
             // 

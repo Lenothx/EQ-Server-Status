@@ -29,40 +29,38 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Bertoxxulous", 5, 5);
-            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Bristlebane", 5, 5);
-            System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Cazic Thule", 5, 5);
-            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Drinal", 5, 5);
-            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Erollisi Marr", 5, 5);
-            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Luclin", 5, 5);
-            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Povar", 5, 5);
-            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("The Rathe", 5, 5);
-            System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Trakanon", 5, 5);
-            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Tunare", 5, 5);
-            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Xegony", 5, 5);
+            System.Windows.Forms.TreeNode treeNode1 = new System.Windows.Forms.TreeNode("Bertoxxulous", 5, 5);//
+            System.Windows.Forms.TreeNode treeNode2 = new System.Windows.Forms.TreeNode("Bristlebane", 5, 5);//
+            //System.Windows.Forms.TreeNode treeNode3 = new System.Windows.Forms.TreeNode("Cazic Thule", 5, 5);//
+            System.Windows.Forms.TreeNode treeNode4 = new System.Windows.Forms.TreeNode("Drinal", 5, 5);//
+            System.Windows.Forms.TreeNode treeNode5 = new System.Windows.Forms.TreeNode("Erollisi Marr", 5, 5);//
+            System.Windows.Forms.TreeNode treeNode6 = new System.Windows.Forms.TreeNode("Luclin", 5, 5);//
+            System.Windows.Forms.TreeNode treeNode7 = new System.Windows.Forms.TreeNode("Povar", 5, 5);//
+            System.Windows.Forms.TreeNode treeNode8 = new System.Windows.Forms.TreeNode("The Rathe", 5, 5);//
+            //System.Windows.Forms.TreeNode treeNode9 = new System.Windows.Forms.TreeNode("Vox", 5, 5);//
+            System.Windows.Forms.TreeNode treeNode10 = new System.Windows.Forms.TreeNode("Tunare", 5, 5);//
+            System.Windows.Forms.TreeNode treeNode11 = new System.Windows.Forms.TreeNode("Xegony", 5, 5);//
             System.Windows.Forms.TreeNode treeNode12 = new System.Windows.Forms.TreeNode("Regular Servers", new System.Windows.Forms.TreeNode[] {
             treeNode1,
             treeNode2,
-            treeNode3,
+            //treeNode3,
             treeNode4,
             treeNode5,
             treeNode6,
             treeNode7,
             treeNode8,
-            treeNode9,
+            //treeNode9,
             treeNode10,
             treeNode11});
-            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Agnarr (PoP-LP)", 5, 5);
-            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Antonius Bayle (EU)", 5, 5);
-            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Brekt (Free Trade)", 5, 5);
-            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Coirnav (TLP)", 5, 5);
-            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Fippy Darkpaw (TLP)", 5, 5);
-            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Firiona Vie (RP)", 5, 5);
-            System.Windows.Forms.TreeNode treeNode19 = new System.Windows.Forms.TreeNode("Lockjaw (TLP)", 5, 5);
-            System.Windows.Forms.TreeNode treeNode20 = new System.Windows.Forms.TreeNode("Phinigel (TLP)", 5, 5);
-            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Ragefire (TLP)", 5, 5);
-            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Vox (New Player)", 5, 5);
-            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Zek (PvP)", 5, 5);
+            System.Windows.Forms.TreeNode treeNode13 = new System.Windows.Forms.TreeNode("Agnarr (PoP-LP)", 5, 5);//
+            System.Windows.Forms.TreeNode treeNode14 = new System.Windows.Forms.TreeNode("Antonius Bayle (EU)", 5, 5);//
+            System.Windows.Forms.TreeNode treeNode15 = new System.Windows.Forms.TreeNode("Teek ", 5, 5);//MISSING
+            System.Windows.Forms.TreeNode treeNode16 = new System.Windows.Forms.TreeNode("Tormax, TLP", 5, 5);//Missing
+            System.Windows.Forms.TreeNode treeNode17 = new System.Windows.Forms.TreeNode("Oakwynd", 5, 5);//
+            System.Windows.Forms.TreeNode treeNode18 = new System.Windows.Forms.TreeNode("Firiona Vie (RP)", 5, 5);//
+            System.Windows.Forms.TreeNode treeNode21 = new System.Windows.Forms.TreeNode("Ragefire (TLP)", 5, 5);//
+            System.Windows.Forms.TreeNode treeNode22 = new System.Windows.Forms.TreeNode("Vox (New Player)", 5, 5);//
+            System.Windows.Forms.TreeNode treeNode23 = new System.Windows.Forms.TreeNode("Zek (PvP)", 5, 5);//
             System.Windows.Forms.TreeNode treeNode24 = new System.Windows.Forms.TreeNode("Special Servers", new System.Windows.Forms.TreeNode[] {
             treeNode13,
             treeNode14,
@@ -70,8 +68,6 @@
             treeNode16,
             treeNode17,
             treeNode18,
-            treeNode19,
-            treeNode20,
             treeNode21,
             treeNode22,
             treeNode23});
@@ -166,12 +162,12 @@
             treeNode2.Tag = "Bristlebane";
             treeNode2.Text = "Bristlebane";
             treeNode2.ToolTipText = "Bristlebane";
-            treeNode3.ImageIndex = 5;
-            treeNode3.Name = "CazicThuleNode";
-            treeNode3.SelectedImageIndex = 5;
-            treeNode3.Tag = "Cazic Thule";
-            treeNode3.Text = "Cazic Thule";
-            treeNode3.ToolTipText = "Cazic Thule";
+            //treeNode3.ImageIndex = 5;
+            //treeNode3.Name = "CazicThuleNode";
+            //treeNode3.SelectedImageIndex = 5;
+            //treeNode3.Tag = "Cazic Thule";
+            //treeNode3.Text = "Cazic Thule";
+            //treeNode3.ToolTipText = "Cazic Thule";
             treeNode4.ImageIndex = 5;
             treeNode4.Name = "DrinalNode";
             treeNode4.SelectedImageIndex = 5;
@@ -202,12 +198,6 @@
             treeNode8.Tag = "The Rathe";
             treeNode8.Text = "The Rathe";
             treeNode8.ToolTipText = "The Rathe";
-            treeNode9.ImageIndex = 5;
-            treeNode9.Name = "TrakanonNode";
-            treeNode9.SelectedImageIndex = 5;
-            treeNode9.Tag = "Trakanon";
-            treeNode9.Text = "Trakanon";
-            treeNode9.ToolTipText = "Trakanon";
             treeNode10.ImageIndex = 5;
             treeNode10.Name = "TunareNode";
             treeNode10.SelectedImageIndex = 5;
@@ -237,41 +227,29 @@
             treeNode14.Text = "Antonius Bayle (EU)";
             treeNode14.ToolTipText = "Antonius Bayle (EU)";
             treeNode15.ImageIndex = 5;
-            treeNode15.Name = "BrektNode";
+            treeNode15.Name = "TeekNode";
             treeNode15.SelectedImageIndex = 5;
-            treeNode15.Tag = "Brekt";
-            treeNode15.Text = "Brekt (Free Trade)";
-            treeNode15.ToolTipText = "Brekt (Free Trade)";
+            treeNode15.Tag = "Teek";
+            treeNode15.Text = "Teek (Free Trade)";
+            treeNode15.ToolTipText = "Teek (Free Trade)";
             treeNode16.ImageIndex = 5;
-            treeNode16.Name = "CoirnavNode";
+            treeNode16.Name = "TormaxNode";
             treeNode16.SelectedImageIndex = 5;
-            treeNode16.Tag = "Coirnav";
-            treeNode16.Text = "Coirnav (TLP)";
-            treeNode16.ToolTipText = "Coirnav (TLP)";
+            treeNode16.Tag = "Tormax";
+            treeNode16.Text = "Tormax, TLP";
+            treeNode16.ToolTipText = "Tormax, TLP";
             treeNode17.ImageIndex = 5;
-            treeNode17.Name = "FippyDarkpawNode";
+            treeNode17.Name = "OakwyndNode";
             treeNode17.SelectedImageIndex = 5;
-            treeNode17.Tag = "Fippy Darkpaw (TLP)";
-            treeNode17.Text = "Fippy Darkpaw (TLP)";
-            treeNode17.ToolTipText = "Fippy Darkpaw (TLP)";
+            treeNode17.Tag = "Oakwynd";
+            treeNode17.Text = "Oakwynd (TLP)";
+            treeNode17.ToolTipText = "Oakwynd (TLP)";
             treeNode18.ImageIndex = 5;
             treeNode18.Name = "FirionaVieNode";
             treeNode18.SelectedImageIndex = 5;
             treeNode18.Tag = "Firiona Vie (RP)";
             treeNode18.Text = "Firiona Vie (RP)";
             treeNode18.ToolTipText = "Firiona Vie (RP)";
-            treeNode19.ImageIndex = 5;
-            treeNode19.Name = "LockjawNode";
-            treeNode19.SelectedImageIndex = 5;
-            treeNode19.Tag = "Lockjaw";
-            treeNode19.Text = "Lockjaw (TLP)";
-            treeNode19.ToolTipText = "Lockjaw (TLP)";
-            treeNode20.ImageIndex = 5;
-            treeNode20.Name = "PhinigelNode";
-            treeNode20.SelectedImageIndex = 5;
-            treeNode20.Tag = "Phinigel";
-            treeNode20.Text = "Phinigel (TLP)";
-            treeNode20.ToolTipText = "Phinigel (TLP)";
             treeNode21.ImageIndex = 5;
             treeNode21.Name = "RagefireNode";
             treeNode21.SelectedImageIndex = 5;
@@ -316,7 +294,7 @@
             this.ServerTreeView.ShowNodeToolTips = true;
             this.ServerTreeView.Size = new System.Drawing.Size(195, 544);
             this.ServerTreeView.TabIndex = 0;
-            this.ServerTreeView.BeforeSelect += new System.Windows.Forms.TreeViewCancelEventHandler(this.serverTreeViewNodeClick);
+            this.ServerTreeView.BeforeSelect += new System.Windows.Forms.TreeViewCancelEventHandler(this.ServerTreeViewNodeClick);
             // 
             // ServerStatusImageList
             // 
@@ -379,7 +357,7 @@
             this.setRefreshTimerToolStripMenuItem.Name = "setRefreshTimerToolStripMenuItem";
             this.setRefreshTimerToolStripMenuItem.Size = new System.Drawing.Size(140, 22);
             this.setRefreshTimerToolStripMenuItem.Text = "&Settings";
-            this.setRefreshTimerToolStripMenuItem.Click += new System.EventHandler(this.setRefreshTimerToolStripMenuItem_Click);
+            this.setRefreshTimerToolStripMenuItem.Click += new System.EventHandler(this.SetRefreshTimerToolStripMenuItem_Click);
             // 
             // helpToolStripMenuItem
             // 
@@ -395,14 +373,14 @@
             this.userGuideToolStripMenuItem.Name = "userGuideToolStripMenuItem";
             this.userGuideToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.userGuideToolStripMenuItem.Text = "&About";
-            this.userGuideToolStripMenuItem.Click += new System.EventHandler(this.userGuideToolStripMenuItem_Click);
+            this.userGuideToolStripMenuItem.Click += new System.EventHandler(this.UserGuideToolStripMenuItem_Click);
             // 
             // eQResourcecomToolStripMenuItem
             // 
             this.eQResourcecomToolStripMenuItem.Name = "eQResourcecomToolStripMenuItem";
             this.eQResourcecomToolStripMenuItem.Size = new System.Drawing.Size(164, 22);
             this.eQResourcecomToolStripMenuItem.Text = "&EQResource.com";
-            this.eQResourcecomToolStripMenuItem.Click += new System.EventHandler(this.eQResourcecomToolStripMenuItem_Click);
+            this.eQResourcecomToolStripMenuItem.Click += new System.EventHandler(this.EQResourcecomToolStripMenuItem_Click);
             // 
             // serverRefreshTimer
             // 
@@ -564,7 +542,7 @@
             this.triggerRemoveSelectedTriggerButton.TabIndex = 12;
             this.triggerRemoveSelectedTriggerButton.Text = "Remove Selected Trigger";
             this.triggerRemoveSelectedTriggerButton.UseVisualStyleBackColor = true;
-            this.triggerRemoveSelectedTriggerButton.Click += new System.EventHandler(this.triggerRemoveSelectedTriggerButton_Click);
+            this.triggerRemoveSelectedTriggerButton.Click += new System.EventHandler(this.TriggerRemoveSelectedTriggerButton_Click);
             // 
             // triggerCreationCreateButton
             // 
@@ -575,7 +553,7 @@
             this.triggerCreationCreateButton.TabIndex = 11;
             this.triggerCreationCreateButton.Text = "Create Trigger";
             this.triggerCreationCreateButton.UseVisualStyleBackColor = true;
-            this.triggerCreationCreateButton.Click += new System.EventHandler(this.triggerCreationCreateButton_Click);
+            this.triggerCreationCreateButton.Click += new System.EventHandler(this.TriggerCreationCreateButton_Click);
             // 
             // triggerCreationAlertOnceComboBox
             // 
@@ -667,12 +645,8 @@
             "Antonius Bayle",
             "Beta",
             "Bertoxxulous",
-            "Brekt",
             "Bristlebane",
-            "Cazic Thule",
-            "Corinav",
             "Erollisi Marr",
-            "Fippy Darkpaw",
             "Firiona Vie",
             "Lockjaw",
             "Luclin",
@@ -681,7 +655,6 @@
             "Ragefire",
             "Test",
             "The Rathe",
-            "Trakanaon",
             "Tunare",
             "Vox",
             "Xegony",
@@ -772,7 +745,7 @@
             this.programNotifyIcon.ContextMenuStrip = this.notifyIconContextMenuStrip;
             this.programNotifyIcon.Icon = ((System.Drawing.Icon)(resources.GetObject("programNotifyIcon.Icon")));
             this.programNotifyIcon.Text = "EQServerStatus: Active";
-            this.programNotifyIcon.DoubleClick += new System.EventHandler(this.showProgramFromTray);
+            this.programNotifyIcon.DoubleClick += new System.EventHandler(this.ShowProgramFromTray);
             this.programNotifyIcon.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.TriggerNotifyIcon_MouseDoubleClick);
             // 
             // notifyIconContextMenuStrip
@@ -802,7 +775,7 @@
             this.exitToolStripMenuItem1.Name = "exitToolStripMenuItem1";
             this.exitToolStripMenuItem1.Size = new System.Drawing.Size(140, 22);
             this.exitToolStripMenuItem1.Text = "Exit";
-            this.exitToolStripMenuItem1.Click += new System.EventHandler(this.exitToolStripMenuItem1_Click);
+            this.exitToolStripMenuItem1.Click += new System.EventHandler(this.ExitToolStripMenuItem1_Click);
             // 
             // statusStrip1
             // 
